@@ -8,11 +8,37 @@
     margin: 10% auto;
     padding: 70px;
 }
+.pratos{
+     justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 10px ;
+}
+
 .pratos img {
     width: 200px;
     height: 190px;
     border-radius: 8px;
 }
 .pratos img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+.titulo_prod {
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    font-family: Calibri;
+    font-size: 12px;
+    color: aqua;
+}
+.descricao_prod {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    font-family: Calibri;
+    font-size: 12px;
+    color: rgb(191, 253, 253);
+    text-align: center;
 }
